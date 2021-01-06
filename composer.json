@@ -2,7 +2,7 @@
     "name": "93devs/nine3-twitter-api",
     "version": "master",
     "dist": {
-        "url": "git@bitbucket.org:93digital/nine3-twitter-api.git",
+        "url": "git@bitbucket.org:vicLobins93/nine3-twitter-api.git",
         "type": "git"
     },
     "autoload": {
