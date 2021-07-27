@@ -1,11 +1,9 @@
 {
     "name": "93devs/nine3-twitter-api",
     "version": "master",
-    "minimum-stability": "dev",
-    "license": "MIT",
     "autoload": {
         "classmap": [
-            "class-nine3-twitter.php"
+            "class-nine3- twitter.php"
         ],
         "exclude-from-classmap": [
             "phpcs.xml"
