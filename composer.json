@@ -1,12 +1,21 @@
 {
     "name": "93devs/nine3-twitter-api",
     "version": "master",
-    "dist": {
-        "url": "git@bitbucket.org:vicLobins93/nine3-twitter-api.git",
-        "type": "git"
-    },
+    "minimum-stability": "dev",
+    "license": "MIT",
     "autoload": {
-        "classmap": ["class-nine3-twitter.php"],
-        "exclude-from-classmap": ["phpcs.xml"]
-    }
+        "classmap": [
+            "class-nine3-twitter.php"
+        ],
+        "exclude-from-classmap": [
+            "phpcs.xml"
+        ]
+    },
+    "authors": [
+        {
+            "name": "93digital",
+            "email": "info@93digital.co.uk",
+            "homepage": "https://93digital.co.uk/"
+        }
+    ]
 }
