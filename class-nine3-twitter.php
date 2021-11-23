@@ -317,7 +317,7 @@ class Twitter {
     $return   = $tweet->text;
     $entities = array();
 
-    if ( $links && is_array( $tweet->entities['urls'] ) ) {\
+    if ( $links && is_array( $tweet->entities['urls'] ) ) {
       foreach ( $tweet->entities['urls'] as $e ) {
         $temp['start']         = $e['indices'][0];
         $temp['end']           = $e['indices'][1];
